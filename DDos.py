@@ -18,7 +18,7 @@ def ping_ip(ip_address, count):
     print(f"تم إرسال {successful_pings} من أصل {count} طلب ping بنجاح إلى {ip_address}")
 
 def main():
-    ip_address = "192.168.0.1"  # يمكنك تغيير هذا الرمز إلى العنوان المطلوب
+    ip_address = "192.168.0.102"  # يمكنك تغيير هذا الرمز إلى العنوان المطلوب
     count = 50000  # عدد طلبات الـ ping المطلوبة
     ping_ip(ip_address, count)
 
